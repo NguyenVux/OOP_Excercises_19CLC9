@@ -146,6 +146,7 @@
     <ClCompile Include="NV.cpp" />
     <ClCompile Include="PS1.cpp" />
     <ClCompile Include="PS2.cpp" />
+    <ClCompile Include="QuanLyHinhHocPhang.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CP1.h" />
@@ -154,6 +155,7 @@
     <ClInclude Include="NV.h" />
     <ClInclude Include="PS1.h" />
     <ClInclude Include="PS2.h" />
+    <ClInclude Include="QuanLyHinhHocPhang.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
