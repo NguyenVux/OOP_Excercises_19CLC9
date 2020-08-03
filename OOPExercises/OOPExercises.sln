@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "W05", "W05\W05.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MidTerm", "MidTerm\MidTerm.vcxproj", "{176030E2-F6A2-4E78-993C-61BC46C0E9ED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab05 - Polymorphism", "Lab05 - Polymorphism\Lab05 - Polymorphism.vcxproj", "{FB527811-09F2-44BA-891C-7933A4EE8432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{176030E2-F6A2-4E78-993C-61BC46C0E9ED}.Release|x64.Build.0 = Release|x64
 		{176030E2-F6A2-4E78-993C-61BC46C0E9ED}.Release|x86.ActiveCfg = Release|Win32
 		{176030E2-F6A2-4E78-993C-61BC46C0E9ED}.Release|x86.Build.0 = Release|Win32
+		{FB527811-09F2-44BA-891C-7933A4EE8432}.Debug|x64.ActiveCfg = Debug|x64
+		{FB527811-09F2-44BA-891C-7933A4EE8432}.Debug|x64.Build.0 = Debug|x64
+		{FB527811-09F2-44BA-891C-7933A4EE8432}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB527811-09F2-44BA-891C-7933A4EE8432}.Debug|x86.Build.0 = Debug|Win32
+		{FB527811-09F2-44BA-891C-7933A4EE8432}.Release|x64.ActiveCfg = Release|x64
+		{FB527811-09F2-44BA-891C-7933A4EE8432}.Release|x64.Build.0 = Release|x64
+		{FB527811-09F2-44BA-891C-7933A4EE8432}.Release|x86.ActiveCfg = Release|Win32
+		{FB527811-09F2-44BA-891C-7933A4EE8432}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

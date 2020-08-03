@@ -149,14 +149,17 @@ int main()
 	Lam.setSpouse(Van);
 	Khang.setName("Khang");
 	Van.addPurchase(700);
-	Van.addPurchase(700);
-	Van.addPurchase(1500);
 	Khang.addPurchase(850);
-	Khang.addPurchase(750);
-	Khang.addPurchase(2000);
 	Lam.addPurchase(850);
+
+	Van.addPurchase(700);	
+	Khang.addPurchase(750);
 	Lam.addPurchase(750);
+	
+	
 	Lam.addPurchase(2000);
+	Van.addPurchase(1500);	
+	Khang.addPurchase(2000);
 	cout << "Total purchase of Van, Lam, Khang: " << Lam.getTotalPurchase() + Khang.getTotalPurchase() + Van.getTotalPurchase() << endl;
 	return 0;
 }
