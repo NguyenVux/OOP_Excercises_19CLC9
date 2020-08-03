@@ -24,12 +24,36 @@
     <ClCompile Include="PS2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CP1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CP2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NGUOI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PS1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PS2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CP1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CP2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NGUOI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NV.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

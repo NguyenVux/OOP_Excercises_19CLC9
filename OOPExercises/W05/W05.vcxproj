@@ -139,11 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CP1.cpp" />
+    <ClCompile Include="CP2.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NGUOI.cpp" />
+    <ClCompile Include="NV.cpp" />
     <ClCompile Include="PS1.cpp" />
     <ClCompile Include="PS2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CP1.h" />
+    <ClInclude Include="CP2.h" />
+    <ClInclude Include="NGUOI.h" />
+    <ClInclude Include="NV.h" />
     <ClInclude Include="PS1.h" />
     <ClInclude Include="PS2.h" />
   </ItemGroup>
