@@ -6,7 +6,7 @@ class Cube :
 {
 public:
     Cube(double r) :Square(r) {}
-    Cube() :Square() {}
+    //Cube() :Square() {}
     double volume();
     double CalcSurface();
     double CalcPerimeter();

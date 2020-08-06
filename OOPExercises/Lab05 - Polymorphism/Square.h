@@ -5,7 +5,7 @@ class Square :
 {
 public:
     Square(double e) : Rectangle(e, e) {}
-    Square() :Rectangle() {}
+    //Square() : Rectangle() {}
     double getEdge();
     void setEdge(double);
     

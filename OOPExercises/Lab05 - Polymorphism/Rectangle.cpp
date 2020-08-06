@@ -14,12 +14,12 @@ Rectangle::Rectangle()
 
 double Rectangle::CalcSurface()
 {
-	return 0.0;
+	return this->e[0]*this->e[1];
 }
 
 double Rectangle::CalcPerimeter()
 {
-	return 0.0;
+	return (this->e[0] + this->e[1])*2.0;
 }
 
 void Rectangle::setLong(double f)
