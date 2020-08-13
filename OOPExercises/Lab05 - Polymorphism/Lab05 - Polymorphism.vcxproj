@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BT04.cpp" />
     <ClCompile Include="BT2.cpp" />
     <ClCompile Include="BT3.cpp" />
     <ClCompile Include="Circle.cpp" />
@@ -152,6 +153,7 @@
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BT04.h" />
     <ClInclude Include="BT2.H" />
     <ClInclude Include="BT3.h" />
     <ClInclude Include="Circle.h" />

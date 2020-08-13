@@ -4,9 +4,8 @@
 #include "Square.h"
 #include "Triangle.h"
 #include "BT2.H"
-#include <vector>
-#include <iostream>
 #include "BT3.h"
+#include "BT04.h"
 
 using namespace std;
 void Ex01()
@@ -196,8 +195,99 @@ void Ex03()
 	cout << "Machine Weight: " << m.getWeight();
 	cout << "Machine Price: " << m.getPrice();
 }
+
+Folder* addFolder()
+{
+	Folder* f = new Folder;
+	cout << "Enter Folder name: ";
+	string name;
+	getline(cin, name);
+	f->setName(name);
+	int choice = -1;
+	while (choice != 2)
+	{
+		system("cls");
+		cout << "Would you like to add Anything to your folder?\n 0.Add File\n1.Add Folder\n2.Exit\n";
+		cin >> choice;
+		cin.ignore();
+		if (choice == 0)
+		{
+			File* ptr = new File();
+			cout << "Enter File name: ";
+			string name;
+			getline(cin, name);
+			cout << "Enter File size: ";
+			int size;
+			cin >> size;
+			ptr->setName(name);
+			ptr->setSize(size);
+			f->addStorageUnit(ptr);
+		}
+		else if(choice == 1)
+		{
+			f->addStorageUnit(addFolder());
+		}
+	}
+	return f;
+}
+void Ex04()
+{
+	Folder root;
+	root.setName("C");
+	int choice = -1;
+	while (choice != 4)
+	{
+		system("cls");
+		cout << "0.Add File\n1.Add Folder\n2.View Directory tree\n3.Count Item in Folder\n4.Exit\n";
+		cin >> choice;
+		cin.ignore();
+		if (choice == 0)
+		{
+			File* ptr = new File();
+			cout << "Enter File name: ";
+			string name;
+			getline(cin, name);
+			cout << "Enter File size: ";
+			int size;
+			cin >> size;
+			ptr->setName(name);
+			ptr->setSize(size);
+			root.addStorageUnit(ptr);
+		}
+		else if( choice == 1)
+		{
+			root.addStorageUnit(addFolder());
+			
+		}
+		else if (choice == 2)
+		{
+			root.outPut(0);
+			system("pause");
+		}
+		else if(choice == 3)
+		{
+			cout << "Enter Folder name: ";
+			string name;
+			getline(cin, name);
+			Folder *ptr = root.FindFolder(name);
+			if (ptr == nullptr)
+			{
+				cout << "Folder not found" << endl;
+			}
+			else
+			{
+				cout << "There are " << ptr->countItem() << " files and folders";
+			}
+			system("pause");
+		}
+	}
+
+}
 int main()
 {
+	Ex01();
+	Ex02();
 	Ex03();
+	Ex04();
 	return 0;
 }

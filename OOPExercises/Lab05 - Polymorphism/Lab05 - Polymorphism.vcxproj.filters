@@ -48,6 +48,9 @@
     <ClCompile Include="BT3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BT04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shape.h">
@@ -78,6 +81,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BT3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BT04.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
